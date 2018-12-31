@@ -27,7 +27,7 @@ Every county file has its ballot scans organized by precinct. Each ballot scan c
     "precincts": {
         "101 - Stone Church": [
             {
-                "ballot index": "2",
+                "ballot index": 2,
                 "iVotronic Serial Number": "5110314",
                 "votes": {
                     "straight party": {
@@ -52,7 +52,7 @@ Every county file has its ballot scans organized by precinct. Each ballot scan c
                 }
             },
             {
-                "ballot index": "2",
+                "ballot index": 2,
                 "iVotronic Serial Number": "5110314",
                 "votes": {
                     "straight party": {
