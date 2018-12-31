@@ -22,6 +22,65 @@ The South Carolina State Election Commission [reported](https://www.scvotes.org/
 
 Every county file has its ballot scans organized by precinct. Each ballot scan contains the keys: `ballot index`, `iVotronic Serial Number`, and `votes`. The `ballot index` value indicates which ballot style that appears in the precinct was used to cast that ballot. The ballot index can be different in each precinct for a ballot style that is common to the precinct. The `votes` object contains the key `straight party` to indicate if the ballot was cast as a straighy party vote, and for which party, if applicable. The other keys within the `votes` object vary based on which contests were present on the ballot, and how the voter chose to participate.
 
+```json
+{
+    "precincts": {
+        "101 - Stone Church": [
+            {
+                "ballot index": "2",
+                "iVotronic Serial Number": "5110314",
+                "votes": {
+                    "straight party": {
+                        "selected": true,
+                        "party": "Republican"
+                    },
+                    "Governor and Lieutenant Governor": "Henry McMaster",
+                    "Secretary of State": "Mark Hammond",
+                    "State Treasurer": "Curtis Loftis",
+                    "Attorney General": "Alan Wilson",
+                    "Comptroller General": "Richard Eckstrom",
+                    "State Superintendent of Education": "Molly Mitchell Spearman",
+                    "Commissioner of Agriculture": "Hugh Weathers",
+                    "CON0003 U.S. House of Representatives": "Jeff Duncan",
+                    "HOU0003 State House of Representatives": "Gary Clary",
+                    "Solicitor Circuit 13": "Walt Wilkins",
+                    "Probate Judge": "David K Allison",
+                    "CCL0001 County Council": "Ensley Feemster",
+                    "Amendment 1": "Yes",
+                    "MUN0566 City Council": "Robert Halfacre",
+                    "MUN0566 City of Clemson Beer and Wine Sales": "Yes, In favor of the question"
+                }
+            },
+            {
+                "ballot index": "2",
+                "iVotronic Serial Number": "5110314",
+                "votes": {
+                    "straight party": {
+                        "selected": false,
+                        "party": null
+                    },
+                    "Governor and Lieutenant Governor": "Henry McMaster",
+                    "Secretary of State": "Mark Hammond",
+                    "State Treasurer": "Curtis Loftis",
+                    "Attorney General": "Alan Wilson",
+                    "Comptroller General": "Richard Eckstrom",
+                    "State Superintendent of Education": "Molly Mitchell Spearman",
+                    "Commissioner of Agriculture": "Hugh Weathers",
+                    "CON0003 U.S. House of Representatives": "Jeff Duncan",
+                    "HOU0003 State House of Representatives": "Gary Clary",
+                    "Solicitor Circuit 13": "Walt Wilkins",
+                    "Probate Judge": "David K Allison",
+                    "CCL0001 County Council": "Ensley Feemster",
+                    "Amendment 1": "Yes",
+                    "MUN0566 City Council": "Robert Halfacre",
+                    "MUN0566 City of Clemson Beer and Wine Sales": "No, Opposed to the question"
+                }
+            }
+        ]
+    }
+}
+```
+
 ## A Matt Hodges project
 
 This project is maintained by [@hodgesmr](http://twitter.com/hodgesmr).
