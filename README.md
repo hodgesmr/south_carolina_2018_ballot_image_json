@@ -81,6 +81,65 @@ Every county file has its ballot scans organized by precinct. Each ballot scan c
 }
 ```
 
+## Directory Structure
+
+Due to GitHub's file size limit, the county JSON files are compressed into four Zip archives.
+
+```
+counties/
+├── 1_12.zip
+│   ├── Abbeville.json
+│   ├── Aiken.json
+│   ├── Allendale.json
+│   ├── Anderson.json
+│   ├── Bamberg.json
+│   ├── Bamberg_Retabulated.json
+│   ├── Barnwell.json
+│   ├── Beaufort.json
+│   ├── Berkeley.json
+│   ├── Calhoun.json
+│   ├── Charleston.json
+│   └── Cherokee.json
+├── 13_24
+│   ├── Chester.json
+│   ├── Chesterfield.json
+│   ├── Clarendon.json
+│   ├── Colleton.json
+│   ├── Darlington.json
+│   ├── Dillon.json
+│   ├── Dorchester.json
+│   ├── Edgefield.json
+│   ├── Fairfield.json
+│   ├── Florence.json
+│   ├── Georgetown.json
+│   └── Greenville.json
+├── 25_36.zip
+│   ├── Greenwood.json
+│   ├── Hampton.json
+│   ├── Horry.json
+│   ├── Jasper.json
+│   ├── Kershaw.json
+│   ├── Lancaster.json
+│   ├── Laurens.json
+│   ├── Lee.json
+│   ├── Lexington.json
+│   ├── Marion.json
+│   ├── Marlboro.json
+│   └── McCormick.json
+└── 37_47.zip
+    ├── Newberry.json
+    ├── Oconee.json
+    ├── Orangeburg.json
+    ├── Pickens.json
+    ├── Richland.json
+    ├── Saluda.json
+    ├── Spartanburg.json
+    ├── Sumter.json
+    ├── Union.json
+    ├── Williamsburg.json
+    └── York.json
+```
+
 ## A Matt Hodges project
 
 This project is maintained by [@hodgesmr](http://twitter.com/hodgesmr).
