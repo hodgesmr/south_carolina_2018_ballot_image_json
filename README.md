@@ -140,6 +140,20 @@ counties/
     └── York.json
 ```
 
+## License
+
+All data in this repository is sourced from public records provided by the [South Carolina State Election Commission](https://www.scvotes.org). Please consult [South Carolina Code of Laws Title 30 - Public Records](https://www.scstatehouse.gov/code/title30.php) for details on permissible use.
+
+The commisssion [advises](https://www.scvotes.org/sale-voter-registration-lists):
+
+>Obtaining or using public records for commercial solicitation directed to any person in this State is prohibited under South Carolina Code Section 30-2-50 .
+
+>In addition, a person or private entity shall not knowingly obtain or use any "personal information" obtained from a public body for commercial solicitation directed to any person in the State. Section 30-2-50(A) . "Personal information" is defined as follows: Information that identifies or describes an individual including, but not limited to, an individual's photograph or digitized image, social security number, date of birth, driver's identification number, name, home address, home telephone number, medical or disability information, education level, financial status, bank account(s) number(s), account or identification number issued by and/or used by any federal or state governmental agency or private financial institution, employment history, height, weight, race, other physical details, signature, biometric identifiers, and any credit records or reports. Section 30-2-30(1).
+
+>PENALTY: A person knowingly violating the provisions of 30-2-50(A) is guilty of a misdemeanor and, upon conviction, must be fined an amount not to exceed five hundred dollars or imprisoned for a term not to exceed one year, or both. Section 30-2-50(D) .
+
+I am not a lawyer and cannot adivise on this matter.
+
 ## A Matt Hodges project
 
 This project is maintained by [@hodgesmr](http://twitter.com/hodgesmr).
