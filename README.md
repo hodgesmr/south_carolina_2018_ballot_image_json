@@ -87,7 +87,7 @@ Due to GitHub's file size limit, the county JSON files are compressed into four 
 
 ```
 counties/
-├── 1_12.zip
+├── 01_12.zip
 │   ├── Abbeville.json
 │   ├── Aiken.json
 │   ├── Allendale.json
@@ -100,7 +100,7 @@ counties/
 │   ├── Calhoun.json
 │   ├── Charleston.json
 │   └── Cherokee.json
-├── 13_24
+├── 13_24.zip
 │   ├── Chester.json
 │   ├── Chesterfield.json
 │   ├── Clarendon.json
