@@ -1,6 +1,6 @@
 # South Carolina 2018 Ballot Image JSON
 
-This repository contains JSON representations of the South Carolina Vote Image Log audit files (EL155) for the 2018 Statewide General Election. The [original audit files](https://www.scvotes.org/data/Audit2018General.html), provided by the South Carolina State Election Commission, are extracted from the ES&S Election System (Unity). The Unity file format is difficule to parse for analysis, so I've converted them to JSON.
+This repository contains JSON representations of the South Carolina Vote Image Log audit files (EL155) for the 2018 Statewide General Election. The [original audit files](https://www.scvotes.org/data/Audit2018General.html), provided by the South Carolina State Election Commission, are extracted from the ES&S Election System (Unity). The Unity file format is difficult to parse for analysis, so I've converted them to JSON.
 
 The data in this repository, and provided by the state, show individual ballots and the votes cast on them. [No personal identifying information is included with the ballots](https://www.scvotes.org/data/AuditDesc.html).
 
