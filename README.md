@@ -20,7 +20,7 @@ The South Carolina State Election Commission [reported](https://www.scvotes.org/
 
 ## Format
 
-Every county file has its ballot scans organized by precinct. Each ballot scan contains the keys: `ballot index`, `iVotronic Serial Number`, and `votes`. The `ballot index` value indicates which ballot style that appears in the precinct was used to cast that ballot. The ballot index can be different in each precinct for a ballot style that is common to the precinct. The `votes` object contains the key `straight party` to indicate if the ballot was cast as a straighy party vote, and for which party, if applicable. The other keys within the `votes` object vary based on which contests were present on the ballot, and how the voter chose to participate.
+Every county file has its ballot scans organized by precinct. Each ballot scan contains the keys: `ballot index`, `iVotronic Serial Number`, and `votes`. The `ballot index` value indicates which ballot style that appears in the precinct was used to cast that ballot. The ballot index can be different in each precinct for a ballot style that is common to the precinct. The `votes` object contains the key `straight party` to indicate if the ballot was cast as a straight party vote, and for which party, if applicable. The other keys within the `votes` object vary based on which contests were present on the ballot, and how the voter chose to participate.
 
 ```json
 {
